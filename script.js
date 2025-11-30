@@ -5,7 +5,7 @@
       alert("RGB value must be filled out");
       return false; // stop submit
     }
-
+    x = "rgb("+x+")";
     // set background color
     document.getElementById("rgb").style.backgroundColor = x;
 
